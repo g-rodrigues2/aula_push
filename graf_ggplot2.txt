@@ -5,8 +5,10 @@ y=c(2,4,6,8)
 
 df=data.frame(x,y)
 
-ggplot()
-	geam_point(aes(x,y), size=3, color= "blue")
-	theme_bw()
-	theme(axis.title = element-text(size=20)
+ggplot(),
+	geam_point(aes(x,y), size=3, color= "blue"),
+	theme_bw(),
+	theme(
+		axis.title = element-text(size=20),
+		axis.text = element(size=50)
 	)
